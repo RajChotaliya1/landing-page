@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {
+    background: url(pic/wooden-surface-looking-out-empty-restaurant_23-2147701348.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #ff6f61;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+header .btn:hover {
+    background-color: #ffab40;
+    color: #fff;
+}
+
+#menu {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#menu h2 {
+    text-align: center;
+    color: #ff6f61;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.menu-item p {
+    color: #777;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin:0;
+}
